@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+    <title>TOMB - The Online Map of Bioarchaeology</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+     <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+           <a class="navbar-brand" href="/index.html">TOMB</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="terminology.html">Terminology</a></li>
+             <li><a href="sites.html">Sites</a></li>
+             <li><a href="resources.html">Resources</a></li>
+            <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="maps.html">Maps
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+          <li><a href="maps.html">Main Map</a></li>
+            <li><a href="maps_age.html">Age Map</a></li>
+            <li><a href="maps_sex.html">Sex Map</a></li>
+            <li><a href="maps_button.html">Button Map</a></li> 
+          </ul>
+        </li>
+            <li>
+            <a data-toggle="modal" data-target="#myModal" href="#myModal"><i class="fa fa-envelope-o"></i></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div><!-- headerwrap -->
+  <body>
+  var layerUrl = 'http://documentation.carto.com/api/v2/viz/9af23dd8-ea10-11e2-b5ac-5404a6a683d5/viz.json';
+
+var sublayers = [];
+
+cartodb.createLayer(map, https://brightlisa.carto.com/api/v2/viz/2a6bf302-5d7a-11e6-9f90-0e3ebc282e83/viz.json)
+  .addTo(map)
+  .on('done', function(layer) {
+    // change the query for the first layer
+    var subLayerOptions = {
+      sql: "SELECT * FROM ne_10m_populated_places_simple",
+      cartocss: "#ne_10m_populated_places_simple{marker-fill: #F84F40; marker-width: 8; marker-line-color: white; marker-line-width: 2; marker-clip: false; marker-allow-overlap: true;}"
+    }
+
+    var sublayer = layer.getSubLayer(0);
+
+    sublayer.set(subLayerOptions);
+
+    sublayers.push(sublayer);
+  }).on('error', function() {
+    //log the error
+  });
+  </body>
+
+</div><!-- col-lg-4 --><!-- col-lg-4 -->
+		</div><!-- row -->
+		<br>
+		<br>
+	</div><!-- container -->
+
+
+	<!-- PORTFOLIO SECTION --><!-- DG -->
+
+
+	<!-- FEATURE SECTION --><!-- container --><!-- dg -->
+	
+	
+	
+	  <div class="container">
+			<div class="row centered"></div><!-- row -->
+		</div><!-- container -->
+  </div><! -- r wrap -->
+	
+	
+	<!-- FOOTER -->
+	<div id="f">
+		<div class="container">
+			<div class="row centered">
+				<a href="#"></a>
+		   <a href="http://digitalarchaeology.msu.edu"><img src="assets/img/InstituteDigitalArch-Logo-35.png" alt="dai logo" width="36" height="36" align="left"></a> 
+              <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" alt="Creative Commons License" align="middle" style="border-width:0" /></a><br />
+			</div><!-- row -->
+		</div><!-- container -->
+	</div><!-- Footer -->
+
+
+	<!-- MODAL FOR CONTACT -->
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	        <h4 class="modal-title" id="myModalLabel">contact me</h4>
+	      </div>
+	      <div class="modal-body">
+		        <div class="row centered">
+		        	<p>If you have questions don't hesitate to contact us.</p>
+		        	<p>
+						Lisa Bright<br/>
+						brightlisa@gmail.com<br/>
+						@Lisa_N_Bright
+						
+		        	</p>
+		        	<p>		Kate Meyers Emery <br/>
+						@digitallark
+						</p>
+		        	</p>
+		   
+		        </div>
+	      </div>
+	     
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
