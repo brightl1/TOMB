@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+    <title>TOMB - The Online Map of Bioarchaeology</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+     <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+           <a class="navbar-brand" href="index.html">TOMB: The Online Map of Bioarchaeology </a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="background.html">About</a></li>
+            <li><a href="background.html">Terminology</a></li>
+             <li><a href="excavation.html">Sites</a></li>
+             <li><a href="archival_research.html">Resources</a></li>
+        </li>
+            <li>
+            <a data-toggle="modal" data-target="#myModal" href="#myModal"><i class="fa fa-envelope-o"></i></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div><!-- headerwrap -->
+
+
+  <div class="container w">
+  	<div class="row centered">
+	      <h1>La Petrona and Paso Alsina 1</h1>
+	      </div>
+	      <div class="container w">
+<ul>
+  <li><b>Period</b>: Final Late Holocene</li>
+  <li><b>Location</b>: Argentina</li>
+  <li><b>Burials</b>: 56 individuals </li>
+  <li><b>Archaeologists</b>: Martínez, G., Flensborg, G., & Bayala, P</li>
+  <li><b>Related Keyword/Categories</b>: Secondary Burial, Inhumation, Identity, Funerary Practice</li>
+  </ul>
+  <p>Martinez et al. (2012) look at the manipulation of bones in the Final Late Holocene (ca. 1000–250 years BP) in the Colorado River valley of Argentina in order to determine the type of practice and why it was being done. Martinez et al. (2012) examine two sites from the region that have evidence of secondary burial. The first is La Petrona, which has two primary and two multiple secondary burials. The first multiple burial has two adult females and one adult of undetermined sex. There is no anatomical articulation between the bones, however there is a pattern in the bone distribution: skull and pelvises at each end, long bones along the sides, and other bones (vertebrae, ribs, bones of the hands and feet) in the middle. The second multiple burial includes one adult female, one undetermined sex adult and an infant. The placement and lack of articulation is similar to the first bundle burial, however there is some evidence of red coloring along the bones. The two primary burials, which contain an adult female in one and unknown adult in the other, shows evidence of removal of bones, including vertebrae and portions of the pelvis. Traces of defleshing and scraping were found on most of the remains from this site. The evidence of defleshing and scraping suggests that the bodies were manipulated prior to complete skeletonization. While the stage of disarticulation is unknown, it could have happened early on to remove flesh or as a way to ease transport and organization of remains. The second site is Paso Alsina 1. There were a total of ten multiple secondary burials with a minimum number of 56 individuals based on skulls. This group represents a fairly normal demographic curve with similar numbers of males and females, and a variety of ages. There was a pattern in the way that these ten burials were structured: one to three skulls were found on the ends, bones of the pelvic and shoulder girdle were associated with the skulls, long bones on the sides, and ribs aligned symmetrically on top. Other portions of the skeleton like the vertebrae were found less frequently in these burials. There was little to no articulation between bones. Cut marks were found on the majority of the remains, although most were on long bones. Some of the bones show red, yellow and green coloring likely caused by pigments that was placed on the bone after defleshing. Mortuary rituals have the power to produce and reproduce identities, as well as strengthen social relationships and collective social memory. The manipulation of human remains following death is argued to be due to a society’s need to reconnect with their ancestors in order to make claims to resources. Given the amount of cut marks and extensive coloration of the bone, Martinez et al. (2012) argue that the bodies must have been processed by a large group, showing community participation in the activity. By having the community come together to bury their dead in one location, removing individual identity by breaking their bodies down into pieces, they reinforce the identity of the group. In creating these group burials and disarticulating bones they are maintaining their ancestors and community identity.</p>
+<p><b>References</b>: Martínez, G., Flensborg, G., & Bayala, P. (2012). Human corpse manipulation and the body as symbol: A case study from the Eastern Pampa–Patagonia transition (Argentina) during the Final Late Holocene Journal of Anthropological Archaeology, 31 (2), 215-226 DOI: 10.1016/j.jaa.2011.12.002  </p>
+		</div>
+			<div class="col-lg-4">&nbsp;
+</div><!-- col-lg-4 -->
+
+</div><!-- col-lg-4 --><!-- col-lg-4 -->
+		</div><!-- row -->
+		<br>
+		<br>
+	</div><!-- container -->
+
+
+	<!-- PORTFOLIO SECTION --><!-- DG -->
+
+
+	<!-- FEATURE SECTION --><!-- container --><!-- dg -->
+	
+	
+	
+	  <div class="container">
+			<div class="row centered"></div><!-- row -->
+		</div><!-- container -->
+  </div><! -- r wrap -->
+	
+	
+	<!-- FOOTER -->
+	<div id="f">
+		<div class="container">
+			<div class="row centered">
+				<a href="#"></a>
+		   <a href="http://digitalarchaeology.msu.edu"><img src="assets/img/InstituteDigitalArch-Logo-35.png" alt="dai logo" width="72" height="72" align="left"></a> 
+              <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" alt="Creative Commons License" align="middle" style="border-width:0" /></a><br />
+			</div><!-- row -->
+		</div><!-- container -->
+	</div><!-- Footer -->
+
+
+	<!-- MODAL FOR CONTACT -->
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	        <h4 class="modal-title" id="myModalLabel">Contact</h4>
+	      </div>
+	      <div class="modal-body">
+		        <div class="row centered">
+		        	<p>If you have questions don't hesitate to contact us.</p>
+		        	<p>
+						Lisa Bright<br/>
+						brightlisa@gmail.com<br/>
+						@Lisa_N_Bright
+						
+		        	</p>
+		        	<p>		Kate Meyers Emery <br/>
+						@digitallark
+						</p>
+		        	</p>
+		   
+		        </div>
+	      </div>
+	     
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
