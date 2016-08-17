@@ -25,32 +25,7 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
      <!-- Initiates Modal and Uses cookies for Dont Show Again Checkbox -->     
-<script type="text/javascript">
- $(document).ready(function () {
-    $('#myModal').modal();
-  
-   //check cookies
-    function setCookie(){
-        var dis = document.cookie;
-        while(dis.charAt(0)==" ") dis = dis.substring(1);
-        if(dis.substring(8,13)== "false"){
-            $('#myModal').modal('hide');
-        }
-        console.log(dis.substring(8,13));
-    }
-    setCookie();    
-     
-     
-      var $check = $("input.dont").click(function(){
-        if($("input.dont").is(":checked")){
-        document.cookie = "display=false";        
-        }else{
-        document.cookie = "display=true";        
-        }
-          
-      });
- });
-</script>
+
 
   </head>
 
@@ -80,6 +55,33 @@
       </div>
     </div><!-- headerwrap -->
   <body>
+  	
+  	<script type="text/javascript">
+ $(document).ready(function () {
+    $('#myModal').modal();
+  
+   //check cookies
+    function setCookie(){
+        var dis = document.cookie;
+        while(dis.charAt(0)==" ") dis = dis.substring(1);
+        if(dis.substring(8,13)== "false"){
+            $('#myModal').modal('hide');
+        }
+        console.log(dis.substring(8,13));
+    }
+    setCookie();    
+     
+     
+      var $check = $("input.dont").click(function(){
+        if($("input.dont").is(":checked")){
+        document.cookie = "display=false";        
+        }else{
+        document.cookie = "display=true";        
+        }
+          
+      });
+ });
+</script>
   	<!-- MODAL -->
       
       <div class="modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
