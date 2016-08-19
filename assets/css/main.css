@@ -248,6 +248,9 @@ a:after {
 	color: #0099FF;
 }
 
+#f img {vertical-align: middle;
+}
+
 /****** SECTIONS *****/
 
 .w {
