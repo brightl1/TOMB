@@ -13,6 +13,7 @@
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="sticky-footer.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="assets/css/main.css" rel="stylesheet">
@@ -120,9 +121,46 @@
 	
 	
 	<!-- FOOTER -->
+	html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 60px;
+  background-color: #f5f5f5;
+}
+<body>
+
+    <!-- Wrap all page content here -->
+    <div id="wrap">
+
+      <!-- Begin page content -->
+      <div class="container">
+
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="container">
+
+      </div>
+    </div>
+</body>
 	<div id="f">
 		<div class="container"
-		<div class="footer navbar-fixed-bottom">
 			<div class="row centered">
 				<a href="#"></a>
 		   <a href="http://digitalarchaeology.msu.edu"><img src="assets/img/InstituteDigitalArch-Logo-35.png" alt="dai logo" width="72" height="72" align="left"></a> 
