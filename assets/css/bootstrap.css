@@ -4503,7 +4503,14 @@ textarea.input-group-sm > .input-group-btn > .btn {
   padding-bottom: 10px;
   line-height: 20px;
 }
-
+@media (max-width: 410px) { 
+  .navbar-brand { 
+    max-width: 300px; 
+    padding-right:0px;
+    } 
+  
+} 
+    
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {
     position: static;
